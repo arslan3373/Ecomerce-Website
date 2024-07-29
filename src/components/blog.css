@@ -1,0 +1,170 @@
+.imgg{
+    
+    margin: 0rem 1.2rem;
+}
+.blog-section2{
+    padding: 5rem 0rem;
+}
+.section-catagory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.img{
+    border-radius: 5px;
+}
+.catagory  {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.catagory input{
+    width: 311px;
+    height: 58px;
+    border-radius: 5px;
+    padding: 1rem;
+    font: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.catagory h3{
+    padding: 0rem 1.5rem;
+    font: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+.catgaries{
+    display: flex;
+   justify-content: space-between;
+    padding: 1rem 2rem;
+    font: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.main-cat{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+.cat-data{
+    display: flex;
+    gap: 1rem;
+    font: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #9F9F9F;
+
+}
+.Going{
+
+     font: Poppins;
+     padding: 1rem 5rem;
+     max-width: 900px;     
+}
+.Going h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+
+}
+@media(max-width:920px){
+    
+    .img{
+         width: 70%;
+         position: relative;
+         left: 15%;
+    }
+    .main-cat{
+         display: flex;
+         justify-content: center;
+    }
+    .Going{
+        
+        text-align: start;
+     padding: 1rem 1rem;
+    }
+    .gt2{
+        margin-left: 0rem;
+    }
+}
+
+.Going p{
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: justified;
+    color: #9F9F9F;
+    
+}
+.d2{
+    color: #9F9F9F;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+.Going button{
+    
+    border: none;
+    padding: 1rem 0rem 0.5rem 0rem;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.537);
+    margin-bottom: 2rem;
+}
+.catgariess{
+    display: flex;
+justify-content: space-between;
+    font: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+gap: 0.5rem;
+}  
+.sct{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.gt2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 3rem;
+    margin-top: -3rem;
+}
+.bttns{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.bttns button{
+    padding: 0.4rem 1rem;
+    font: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    /* text-align: left; */
+    
+}
+.btns{
+    background-color:  #B88E2F;
+}
+.btnss{
+    background-color: #F9F1E7;
+
+}
+#h2{
+    margin-top: 1.5rem;
+}

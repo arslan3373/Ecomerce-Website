@@ -1,0 +1,132 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  z-index: 1; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;  
+  font-family: 'Poppins', sans-serif;
+}
+.img-cursor{
+  cursor: pointer;
+}
+.navbar-logo {
+  font: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.45px;
+  
+}
+.navlogo{
+  margin-left: 1rem;
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+.navlogo img{
+  width: 50px;
+  height: 32px;
+  margin-top: 0.2rem;
+}
+.icon-btns{
+  margin-left: 6rem;
+  margin-right: 4rem;
+  display: flex;
+  gap: 2.3rem;
+}
+/* Toggle Button for Mobile */
+.navbar-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+/* Navbar Links Container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+.navbar-links img{
+  width: 28px;
+height: 28px;
+font-weight: 100;
+color: #000000;
+
+}
+/* Individual Link Styling */
+.navbar-links .nav-link {
+  cursor: pointer;
+  font: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-links .nav-link:hover {
+  color: #f57c00;
+}
+
+/* Sign-In Button Styling */
+.sign-in-btn {
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-btn:hover {
+  background-color: #e67600;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Display Toggle Button */
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    background-color: wheat;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 1rem 0;
+    z-index: 1000;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links .nav-link {
+    padding: 0.5rem 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width:990px){
+  .icon-btns{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

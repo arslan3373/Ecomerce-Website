@@ -1,0 +1,96 @@
+
+/* Footer Sections */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 2rem; */
+    padding: 1rem;
+    font: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 2rem 2rem 0rem 0rem;
+}
+.footer-uni h1{
+  font-size: 24px;
+font-weight: 700;
+
+}
+.allsamecss h1{
+  color: #9F9F9F;
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 3rem;
+
+}
+.allsamecss p{
+  color: #000000;
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 2.5rem;
+
+}
+
+.footer-uni p{
+font-size: 16px;
+font-weight: 400;
+color: #9F9F9F;
+margin: 3rem 0rem;
+
+}
+.divemail input{
+  border: none;
+  border-bottom: 2px solid #6b676753;
+  padding: 0.5rem 0rem;
+  outline: none;
+  margin-right: 1rem;
+}
+.divemail  button{
+  font: poppins;
+  border: none;
+  border-bottom: 2px solid #3333338a;
+  padding: 0.5rem 0rem;
+background-color: transparent;
+color: #2b2929;
+cursor: pointer;
+}
+.botton-line{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+.botton-line p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+@media (max-width:750px) {
+  .botton-line{
+    width: 100%;
+  margin-left: 0rem;
+
+  }
+  .botton-line p{
+    margin-left: 1rem;
+  }
+}
+.move-btn{
+  margin-right: 7rem;
+  cursor: pointer;
+  margin-bottom: 0.3rem;
+}
+.move-btn span{
+  border-radius:50%;
+  padding: 0.4rem 0.8rem;
+  background-color: #3333334d;
+}
+@media(max-width:500px){
+  .move-btn{
+  margin-right: 3rem;
+    margin-top: 2rem;
+
+  }
+}

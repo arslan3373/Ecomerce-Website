@@ -1,0 +1,52 @@
+.productsExperience {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  background-color: #faf3ea;
+  padding: 4rem;
+  gap: 2rem; 
+}
+
+.allproexp {
+  flex: 1 1 20%; 
+  max-width: 360px;
+  min-width: 240px; 
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.8rem;
+  padding: 1rem; 
+}
+
+.allproexp img {
+  width: 60px;
+  height: 60px;
+}
+
+.allproexp h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.allproexp p {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #898989;
+}
+
+@media (max-width: 1050px) {
+  .allproexp {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .allproexp {
+    flex: 1 1 100%; 
+  }
+}
